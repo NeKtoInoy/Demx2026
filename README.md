@@ -23,3 +23,5 @@
 3. `BR-RTR` — настраиваем третьим
 4. Остальные ВМ — в любом порядке
 <img width="147" height="65" alt="изображение" src="https://github.com/user-attachments/assets/b5654e60-df99-4ba7-bd1b-0ded739f9826" />
+
+<img width="697" height="299" alt="изображение" src="https://github.com/user-attachments/assets/0e95b31f-e091-4eb8-ac3f-4ea7f162f7ac" />
