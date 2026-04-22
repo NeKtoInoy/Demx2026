@@ -326,7 +326,7 @@ EOF
 	named-checkzone 168.192.in-addr.arpa /etc/bind/zone/168.192.in-addr.arpa
         ;;
 
-    "BR-SRV")
+	"BR-SRV")
 	echo ">>> Настройка BR-SRV..."
         hostnamectl set-hostname BR-SRV.au-team.irpo
         timedatectl set-timezone Europe/Moscow
@@ -365,15 +365,19 @@ EOF
         ping -c 3 192.168.3.1
         ;;
 
-    *)
-        echo "Неверная роль!"
-        exit 1
-        ;;
+	 "HQ-CLI")
+	 echo ">>> Настройка HQ-CLI..."
+		hostnamectl hostname HQ-CLI.au-team.irpo
+		timedatectl set-timezone Europe/Moscow
+		;;
+	*)
+	echo "Неверная роль!"
+    exit 1
+		;;
 esac
 
 systemctl restart network
 echo "Сеть перезагружена. Проверка адресов:"
 ip -br a
-
 CONF
 chmod +x deploy.sh
