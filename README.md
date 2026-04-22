@@ -22,6 +22,12 @@
 2. `HQ-RTR` — настраиваем вторым
 3. `BR-RTR` — настраиваем третьим
 4. Остальные ВМ — в любом порядке
-<img width="147" height="65" alt="изображение" src="https://github.com/user-attachments/assets/b5654e60-df99-4ba7-bd1b-0ded739f9826" />
 
+Для работы настроек HQ-CLI нужно указать в интерфейсе проксмокса VLAN 200
+В браузере где ваши машины кликните по Оборудование(Hardware)
+<img width="147" height="65" alt="изображение" src="https://github.com/user-attachments/assets/b5654e60-df99-4ba7-bd1b-0ded739f9826" />
+Там выбирите интерфейс:
 <img width="697" height="299" alt="изображение" src="https://github.com/user-attachments/assets/0e95b31f-e091-4eb8-ac3f-4ea7f162f7ac" />
+И просто укажите в поле Тег VLAN - "200" 
+<img width="605" height="181" alt="изображение" src="https://github.com/user-attachments/assets/fcfc3f99-cdd7-428c-b39c-db9a85828a4e" />
+Готово!
