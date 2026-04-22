@@ -37,3 +37,4 @@
 hostnamectl hostname HQ-CLI.au-team.irpo
 timedatectl set-timezone Europe/Moscow
 ```
+После этого советую еще раз все проверить. Ну а если вы уверены то все, можно двигать ко 2му модулю!
